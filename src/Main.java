@@ -5,10 +5,14 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // TODO: Read two integers
-      
+        System.out.print("Enter Your First Number");
+         int a1 = scanner.nextInt();
+        System.out.print("Enter Your Second Number");
+         int a2 = scanner.nextInt();
 
         // TODO: Print their sum  using println
-      
+        int sum = a1 + a2 ;
+        System.out.print(+ sum);
         scanner.close();
     }
 }
